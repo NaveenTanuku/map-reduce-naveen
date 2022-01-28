@@ -3,7 +3,7 @@
 # Updated: 28 Jan 2022
 # A simple map reduce program
 
-f = open("purchases.txt","r")  # open file, read-only
+f = open("purchase.txt","r")  # open file, read-only
 o = open("outputData.txt", "w") # open file, write
 for line in f:  
     rowList = line.strip().split("    ") # DT: List of Lists
