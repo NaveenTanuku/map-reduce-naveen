@@ -4,7 +4,7 @@
 # A simple map reduce program
 
 f = open("purchase.txt","r")  # open file, read-only
-o = open("outputData.txt", "w") # open file, write
+o = open("outputMapper.txt", "w") # open file, write
 for line in f:  
     rowList = line.strip().split("    ") # DT: List of Lists
     print (rowList )
